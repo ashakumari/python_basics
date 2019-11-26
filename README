@@ -1,0 +1,49 @@
+# Python is Case sensitive
+# Space matters in Python
+# ** for power of operation
+# ^ for bitwise Xor operation
+# // for dividing and round down to nearest integer
+# Python allows multiple variable assignment in single line using single = operator
+# String is an Immutable ordered sequence of characters
+# Important useful functions:
+# len -> get the length of a variable eg: len(a)
+# type -> to check the data type of a variable. eg: type(a)
+# print -> to print the information or outcome to the terminal eg: print("hello world")
+
+# Important string functions:
+title() -> eg: "jon andres".title() -> "Jon Andres"
+is_lower() -> eg: "class".is_lower() -> True
+lower() -> eg: "Class Mates".lower() -> "class mates"
+count(word) -> eg: "Blue fish green fish red fish".count("fish") -> 3
+split() -> eg: "Let's all dance".split() -> ["Let's", "all", "dance"] , "Let's all dance".split('.') -> ["Let's all dance", ""], "Let's all dance".maxsplit(None, 2) -> ["Let's", all dance"]
+
+# List is a mutable ordered sequence of elements
+
+# Important List functions:
+len(list)
+max(list)
+min(list)
+sum(list)
+sorted(list)
+join(list)
+append(value)
+pop()
+
+# Tuples is an immutable ordered sequence of elements
+
+# Set is a mutable unordered collection of unique elements
+# Important Set functions:
+add(value)
+pop()
+union(another_set)
+intersection(another_set)
+difference(another_set)
+
+# Dictionary is a mutable object that stores mapping of unique keys to values
+get(key)
+is vs ==
+items()
+zip(list)
+enumerate(list)
+
+
